@@ -14,5 +14,5 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm install
-      - run: npm audit fix
+      - run: npm audit fix --force
       - run: npm run build
